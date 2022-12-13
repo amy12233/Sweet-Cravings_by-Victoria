@@ -1,0 +1,264 @@
+.hero {
+    width: 80%;
+    margin: auto;
+
+}
+
+.navbar {
+
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    flex: 1;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: darksalmon;
+    padding: 0 10px;
+    position: relative;
+}
+
+ul li a::after {
+    content: '';
+    width: 0;
+    height: 10px;
+    background: darksalmon;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -55px;
+    transition: 0.5s;
+
+}
+
+ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar-icons img {
+    height: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+
+.navbar-icons {
+    margin-left: 40px;
+}
+
+.banner {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left-colunm,
+.right-colunm {
+    flex-basis: 50%;
+}
+
+.right-colunm img {
+    width: 100%;
+
+}
+
+.logo img {
+    padding-left: 50%;
+}
+
+span {
+    font-family: Helvetica, Sans-Serif;
+    color: #D495AA;
+}
+
+.cake_main h3,
+.cake_main p {
+    margin-left: 20px;
+    font-family: Helvetica, Sans-Serif;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px;
+    color: #000000;
+}
+
+p {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.btn button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 1px solid #FFC9DB;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #221F7B;
+    background: transparent;
+    box-shadow: 0 2px 15px #FFC9DB;
+}
+
+.btn .primary-btn {
+    background: linear-gradient(white, white);
+
+    color: #221F7B;
+
+
+}
+
+.btn {
+    margin-bottom: 50px;
+}
+
+.social-icons {
+    width: 200px;
+    text-align: center;
+    opacity: .4;
+
+}
+
+.social-icons img {
+    height: 20px;
+    margin: 0 14px;
+}
+
+.cake_main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.cake_main img {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none
+}
+
+.center {
+    padding-left: 50%;
+}
+
+
+spant {
+    font-family: Helvetica, Sans-Serif;
+    font-family: Helvetica;
+
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 20px;
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+
+}
+
+/* contact page */
+.form {
+    position: relative;
+    float: left;
+    left: 1%;
+    right: 1%;
+    width: 58%;
+    background-color: white;
+}
+
+.footer-bottom {
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    font-family: Helvetica, Sans-Serif;
+    color: #D495AA;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -600%);
+
+}
+
+/* cater */
+
+.row3 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    right: -170%;
+    transform: translate(-80%, -30%);
+}
+
+h6 {
+
+    font-family: Helvetica, Sans-Serif;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: lighter;
+    font-variant: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -700%);
+    color: #000000;
+}
+
+h4 {
+
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+    font-variant: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -800%);
+    color: #292929;
+}
+
+.faq_main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.faq_main img {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none
+}
+
+
+
+.aboutbottom {
+    position: relative;
+    float: right;
+    width: 100%;
+  }
+  
